@@ -46,6 +46,7 @@ img {
   font-weight: 400;
 }
 
+/* Preparation section */
 .recipe__preparation .section__header {
   color: #772b49;
   font-family: "Outfit";
@@ -59,10 +60,21 @@ img {
 }
 
 .preparation__list {
-  padding-left: 30px;
   padding-top: 10px;
 }
 
 .recipe__preparation ul li::marker {
   color: #772b49;
+}
+
+/* Styling the list marker colors*/
+
+ul li::marker,
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+ul,
+ol {
+  padding-left: 20px;
 }
