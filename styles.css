@@ -7,8 +7,62 @@
 body {
   font-family: "Outfit";
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: hsl(29deg 53% 90%);
+  font-size: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  width: 500px;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipe__title {
+  font-family: "Young Serif";
+  font-size: 25px;
+}
+
+.recipe__description {
+  font-size: 11px;
+  color: #888581;
+}
+
+.section__header {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+
+.recipe__preparation .section__header {
+  color: #772b49;
+  font-family: "Outfit";
+  font-weight: 600;
+}
+
+.recipe__preparation {
+  background-color: #fff6fc;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.preparation__list {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.recipe__preparation ul li::marker {
+  color: #772b49;
 }
