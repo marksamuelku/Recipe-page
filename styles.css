@@ -45,10 +45,11 @@ img {
   color: hsl(14, 45%, 36%);
   font-family: "Young Serif";
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 /* Preparation section */
-.recipe__preparation .section__header {
+.recipe__header {
   color: #772b49;
   font-family: "Outfit";
   font-weight: 600;
@@ -88,5 +89,38 @@ li {
 
 hr {
   border: none;
-  border-top: 1px solid hsl(30, 18%, 87%);
+  border-top: 1px solid;
+  color: hsl(30, 54%, 90%);
+}
+
+.nutrition__info {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+th {
+  font-weight: 400;
+}
+
+td {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 768px) {
+  /* Mobile styles here */
 }
